@@ -1,0 +1,74 @@
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  /* background-color: grey; */
+  margin: 40px 0px 0 0px;
+  padding: 0 0 20px;
+  border-bottom: 1px dashed grey;
+}
+
+.logo {
+
+}
+
+.hapistax {
+  display: flex;
+  align-items: flex-end;
+  /* align-items:first baseline */
+}
+
+.i {
+  font-size: 2rem;
+  color: #6aa84f;
+}
+
+.details > h2 {
+  font: 300 1rem var(--font1);
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+.contact {
+  margin: 0;
+  margin-bottom: 4px;
+  padding: 0;
+  font-family: monospace;
+  color: purple;
+}
+
+/* .details > h2 {
+  font: 300 1rem var(--font1);
+}
+
+.details > h3 {
+  font: 300 .75rem 'Lexend Peta';
+  color: #ff9900;
+}
+
+.logo > h1,
+.details > h2,
+.details > h3 {
+  margin: 0;
+}
+
+.logo > h1 {
+  display: flex;
+  align-items: stretch;
+}
+
+.logo > h1 span {
+  display: inline-block;
+  margin: 0;
+  background-color: grey;
+}
+
+.logo {
+    display: flex;
+  align-items: flex-start;
+}
+
+.i {
+  font-size: 2rem;
+  color: #6aa84f;
+} */

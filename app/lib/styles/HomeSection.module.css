@@ -1,0 +1,41 @@
+.entry {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  /* margin-left: 50px; */
+  font: 300 1rem monospace;
+  line-height: 1.65rem;
+}
+
+h4.entryHeading {
+  font: 300 2rem 'Lexend Peta';
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px 0 20px;
+}
+
+.ellipsis {
+  color: #ff9900;
+  margin: 0 10px;
+}
+
+.wrapper {
+  /* flex: 1; */
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.5s ease-out;
+  border: 0px solid #93c47d;
+  border-radius: 5px;
+  max-width: 100%;
+}
+
+.wrapper.isOpen {
+  grid-template-rows: 1fr;
+  border-width: 1px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.inner {
+  overflow: hidden;
+}

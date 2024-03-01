@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100;200;300;400;700&display=swap');
+
+:root {
+
+   /* fonts */
+   --font1: 'Lexend Peta', arial, serif;
+}
+
+
+html, body {
+  font-size: 16px;
+  font-family: 'Lexend Peta', arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+/* h2, h3 {
+  margin: 5px 0 6px 40px;
+}
+
+h2 {
+  font: 300 1.2rem var(--font1);
+}
+
+h3 {
+  font: 300 1rem 'Lexend Peta';
+  color: #ff9900;
+} */
+
+h4 {
+  font: 300 1.2rem 'Lexend Peta';
+}

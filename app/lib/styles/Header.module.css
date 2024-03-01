@@ -1,0 +1,44 @@
+.headerWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hapistax {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  font: 300 3.8rem 'Lexend Peta';
+  margin: 0;
+}
+
+.hapi {
+  color: #6aa84f;
+  font-weight: 700;
+  font-size: 3.8rem;
+
+}
+
+.i {
+  font-size: 3.2rem;
+}
+
+.stax {
+  letter-spacing: .2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  background-color: #93c47d;
+  padding: 0 5px;
+  margin: 10px 0;
+}
+
+.secondaryHeadings {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.name {
+  margin-top: 25px;
+}
